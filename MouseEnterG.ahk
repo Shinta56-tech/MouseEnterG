@@ -15,15 +15,15 @@
 
 ;*****************************************************************************************************************************************
 ; グローバル変数
-
-    #Include, src\MouseTyping\Global.ahk
+    
+    #Include, %A_ScriptDir%\src\MouseTyping\Global.ahk
 
 ;*****************************************************************************************************************************************
 ; 初期化
 
     SetCapsLockState, AlwaysOff
 
-    #Include, src\MouseTyping\Initialize.ahk
+    #Include, %A_ScriptDir%\src\MouseTyping\Initialize.ahk
 
     Return
 
@@ -56,4 +56,4 @@
 ;*****************************************************************************************************************************************
 ; モジュール
 
-    #Include, src\MouseTyping\Module.ahk
+    #Include, %A_ScriptDir%\src\MouseTyping\Module.ahk
